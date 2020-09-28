@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,10 +7,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent implements OnInit {
-
+  @Input() headingName: string;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    console.log(this.headingName);
   }
 
   public onHeaderClick() {

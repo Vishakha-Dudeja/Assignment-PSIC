@@ -122,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "assignment1"
+    }
+  },
+  "defaultProject": "assignment1",
+  "cli": {
+    "analytics": "99e74a2c-351e-4b4b-b7c7-0f68c7a75c78"
+  }
 }

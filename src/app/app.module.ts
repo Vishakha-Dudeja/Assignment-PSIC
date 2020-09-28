@@ -10,12 +10,14 @@ import {CardModule} from 'primeng/card';
 import {TableModule} from 'primeng/table';
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TablesComponent,
-    CardsComponent
+    CardsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
